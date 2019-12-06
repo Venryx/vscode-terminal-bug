@@ -21,7 +21,7 @@ Demo project demonstrating a bug in vscode where Windows conhost processes for b
 ### Screen capture
 
 Here is a screen capture of me performing the steps above on a fresh clone of this repo:
-![](TODO)
+![](./ScreenCapture.gif)
 
 ### Why this is a problem
 
