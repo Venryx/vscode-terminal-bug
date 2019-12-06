@@ -23,6 +23,8 @@ Demo project demonstrating a bug in vscode where Windows conhost processes for b
 Here is a screen capture of me performing the steps above on a fresh clone of this repo:
 ![](./ScreenCapture.gif)
 
+Note: The capture above is with extensions enabled, but I redid the steps with all extensions disabled, and the exact same output occurs.
+
 ### Why this is a problem
 
-To see why this is a problem, see the rest of my issue report here: [TODO: link to issue]
+To see why this is a problem, see the rest of my issue report here: https://github.com/microsoft/vscode/issues/86472
