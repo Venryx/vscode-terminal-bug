@@ -14,7 +14,7 @@ Demo project demonstrating a bug in vscode where Windows conhost processes for b
 
 5) Run the "Tasks: Terminate Task" command, and "terminate" the just-started task. The process-count will not go down, I suppose because vscode is trying to reuse the terminal processes, as per the message "Terminal will be reused by tasks, press any key to close it." when terminating using ctrl+c manually.
 
-6) However, if you run the "Tasks: Run Build Task" command again, the old conhost processes does *not* get reused. Instead, it just stays around as a phantom process.
+6) However, if you run the "Tasks: Run Build Task" command again, the old conhost processes do *not* get reused. Instead, they just stay around as phantom processes.
 
 7) If you terminate the second build task, and start it again, yet another instance of conhost starts, with none of the old conhosts getting removed/reused. And so on, for every new launch of a build task.
 
