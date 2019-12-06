@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "cmd-loop",
+			"type": "npm",
+			"script": "cmd-loop",
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "powershell-loop",
+			"type": "npm",
+			"script": "powershell-loop",
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
